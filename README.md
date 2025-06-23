@@ -1,8 +1,3 @@
-Below is the complete `README.md` rewritten in professional English, strictly without emojis or informalities, and aligned with engineering and academic standards.
-
----
-
-```markdown
 # Calimetrics
 
 **Calimetrics** is a modular microframework for calibration, evaluation, and diagnostic analysis of probabilistic classifiers. It is designed to support auditable, reproducible, and production-grade model validation workflows.
@@ -124,7 +119,6 @@ This project is released under the MIT License. See the [LICENSE](./LICENSE) fil
 
 Contributions are welcome. Please adhere to clean code principles, write modular and well-tested code, and document all public interfaces. Open issues and submit pull requests via GitHub.
 
-```
 
 Se desejar, posso também criar o `LICENSE`, `CONTRIBUTING.md`, ou o esqueleto de um `setup.cfg` ou `setup.py` adicionalmente. Deseja isso?
 ```
