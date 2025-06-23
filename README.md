@@ -8,7 +8,7 @@ In modern machine learning systems, probabilistic classifiers are frequently use
 
 - Post-hoc calibration using frozen base estimators and `CalibratedClassifierCV`
 - Support for various cross-validation strategies (`KFold`, `StratifiedKFold`, `GroupKFold`)
-- Custom metrics such as Brier Score, Log Loss, Expected Calibration Error (ECE), Maximum Calibration Error (MCE), Sensitivity, Specificity, F1-Score, and Matthews Correlation Coefficient (MCC)
+- Custom metrics such as Brier Score, Log Loss, Expected Calibration Error (ECE), Maximum Calibration Error (MCE), Sensitivity, Specificity, $F_\beta$-Score, and Matthews Correlation Coefficient (MCC)
 - Metric exporting for auditing and reporting
 - Comparative calibration curve plotting
 - Optional logging for traceability of evaluation configuration
