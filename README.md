@@ -23,7 +23,7 @@ calimetrics/
 │
 ├── calibration/         # Calibration logic and plotting
 │   ├── calibrator.py
-│   └── ploter.py
+│   └── plotter.py
 │
 ├── evaluation/          # Evaluation, custom scorers and metrics
 │   ├── cross_validator.py
@@ -90,7 +90,7 @@ results = run_model_validation(model, X, y, scorer, cv=cv_strategy)
 ### Exporting Results
 
 ```python
-from calimetrics.evaluation.evaluator import export_results_to_json
+from calimetrics.utils import export_results_to_json
 
 export_results_to_json(results, "metrics_output.json")
 ```
@@ -98,7 +98,7 @@ export_results_to_json(results, "metrics_output.json")
 ### Plotting Calibration Curves
 
 ```python
-from calimetrics.calibration.ploter import CalibrationPlotter
+from calimetrics.calibration.plotter import CalibrationPlotter
 
 plotter = CalibrationPlotter(n_bins=10)
 plotter.compare({"Model A": model_a, "Model B": model_b}, X_val, y_val)
