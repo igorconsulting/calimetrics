@@ -26,8 +26,9 @@ calimetrics/
 │   └── ploter.py
 │
 ├── evaluation/          # Evaluation execution and custom scorers
-│   ├── evaluator.py
+│   ├── cross_validator.py
 │   └── scorer.py
+│   └── metrics.py
 │
 ├── utils/               # Metric implementations and utilities
 │   └── metrics.py
