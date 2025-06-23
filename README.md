@@ -25,13 +25,13 @@ calimetrics/
 │   ├── calibrator.py
 │   └── ploter.py
 │
-├── evaluation/          # Evaluation execution and custom scorers
+├── evaluation/          # Evaluation, custom scorers and metrics
 │   ├── cross_validator.py
 │   └── scorer.py
 │   └── metrics.py
 │
-├── utils/               # Metric implementations and utilities
-│   └── metrics.py
+├── utils/               # save results
+│   └── io.py
 │
 ├── tests/               # Unit and integration tests
 │
