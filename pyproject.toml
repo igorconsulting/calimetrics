@@ -1,0 +1,13 @@
+[project]
+name = "calimetrics"
+version = "0.1.0"
+description = "A modular and extensible Python microframework for evaluating and calibrating probabilistic classifiers with standardized metrics, visualization tools, and reusable validation strategies."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "ipython>=9.3.0",
+    "pandas>=2.3.0",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+]
